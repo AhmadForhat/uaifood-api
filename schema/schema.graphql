@@ -1,0 +1,17 @@
+type Restaurant {
+  name: String
+  address: String
+  starsNumber: Int
+  price: Float
+  type: String
+  src: String
+  alt: String
+  city: String
+}
+
+type Query {
+  cities: [String!]!
+  restaurants(stars: [String!], costs: [String!], cuisineTypes: [String!]): [Restaurant!]!
+}
+
+

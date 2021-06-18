@@ -1,0 +1,17 @@
+{
+  "name": "uaifood-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.25.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "nodemon": "^2.0.7"
+  }
+}
