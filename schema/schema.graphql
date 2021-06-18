@@ -5,13 +5,11 @@ type Restaurant {
   price: Float
   type: String
   src: String
-  alt: String
   city: String
+  alt: String
 }
 
 type Query {
   cities: [String!]!
   restaurants(stars: [String!], costs: [String!], cuisineTypes: [String!]): [Restaurant!]!
 }
-
-
